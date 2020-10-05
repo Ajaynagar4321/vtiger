@@ -22,7 +22,7 @@ public class Login_Logout_Test extends BaseTest {
 		
 		HomePage hp=new HomePage(driver);
 		hp.clickProductBtn();
-		Assert.fail();
+		//Assert.fail();
 		ProductPage pp=new ProductPage(driver);
 		pp.searchProductByNumber("Part Number");
 }
